@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(21, 233, 205);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ .App > table {
+    margin-top: 15px;
+ }
+.tdColor{
+    display: flex;
+    background-color: rgb(159, 161, 161);
+    width: 500px;
+    height: 25px;
+    color: rgb(14, 13, 13);
+    font-size: 15px;
+    font-family: system-ui;
+    cursor: pointer;
+    box-shadow: 0 10px 30px -5px rgb(0, 0, 0, 0.1);
+}
+.myInput{
+    width: 255px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
